@@ -8,18 +8,26 @@ html {
   box-sizing: inherit;
 }
 
-.page {
-  height: 100%;
-  font-family: var(--font-family, sans-serif);
-  -webkit-text-size-adjust: 100%;
-}
-
-.page__body {
+body{
   margin: 0;
-  min-width: 320px;
-  min-height: 100%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
   font-size: 16px;
 }
+
+// .page {
+//   height: 100%;
+//   font-family: var(--font-family, sans-serif);
+//   font-weight: 400;
+//   -webkit-text-size-adjust: 100%;
+// }
+
+// .page__body {
+//   margin: 0;
+//   min-width: 320px;
+//   min-height: 100%;
+//   font-size: 16px;
+// }
 
 img {
   height: auto;
