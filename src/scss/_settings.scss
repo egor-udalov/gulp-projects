@@ -154,3 +154,32 @@ a {
     background-color: var(--primary-color);
   }
 }
+
+.title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  color: var(--ebony-color);
+
+  &--center {
+    text-align: center;
+  }
+}
+
+.descr {
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--storm-color);
+
+  &--center {
+    text-align: center;
+  }
+}
+
+.section-offset {
+  padding-top: 120px;
+}
